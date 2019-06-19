@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   s.license = "Apache 2.0"
 
   s.add_development_dependency 'compass'
-  s.add_development_dependency 'sass-rails', '>= 3.2'
-  s.add_runtime_dependency     'sass',       '~> 3.2'
+  s.add_development_dependency 'sassc-rails', '>= 3.2'
 
   s.files      = `git ls-files`.split("\n")
   s.test_files = `git ls-files -- test/*`.split("\n")

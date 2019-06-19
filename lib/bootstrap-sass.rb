@@ -11,7 +11,7 @@ module Bootstrap
     end
 
     if rails?
-      require 'sass-rails'
+      require 'sassc-rails'
       register_rails_engine
     end
 
